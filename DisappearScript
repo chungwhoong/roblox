@@ -1,4 +1,4 @@
---이 스크립트의 플랫폼 지정
+--이 스크립트의 부모인 플랫폼 지정
 local platform = script.Parent
  
 --플랫폼이 사라지는 함수 
