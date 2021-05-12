@@ -1,14 +1,18 @@
 local platform = script.Parent
  
-local function fade()
-	for count = 1, 10 do
-		platform.Transparency = count / 10
-		wait(0.1)
-	end
+local function disappear()
     platform.CanCollide = false
-	wait(3)
-	platform.CanCollide = true
-	platform.Transparency = 0
+    platform.Transparency = 1
 end
  
-platform.Touched:Connect(fade)
+local function appear()
+    platform.CanCollide = true
+    platform.Transparency = 0
+end
+ 
+while true do
+	wait(3)
+	disappear()
+	wait(3)
+	appear()
+end
