@@ -8,8 +8,13 @@
 
 
 [게임리터러시교육][로블록스] 1-1. 모델링 이해하기   https://youtu.be/3FCaeNguKpw
+
 [게임리터러시교육][로블록스] 1-2. 로블록스를 이용하여 건축물 모델링하기   https://youtu.be/zlWezz-dDB4
+
 [게임리터러시교육][로블록스] 1-3. 로블록스를 이용하여 관광가이드 제작하기   https://youtu.be/_otPYe6ngYU
+
 [게임리터러시교육][로블록스] 2-1. 로블록스 스튜디오 이해하기점핑게임만들기   https://youtu.be/qlLcRlcxSaA
+
 [게임리터러시교육][로블록스] 2-2. 로블록스 스크립트 코딩 이해하기   https://youtu.be/dFsx95nQ0pE
+
 [게임리터러시교육][로블록스] 2-3. 나만의 게임 만들기   https://youtu.be/geCnEOpmW10
