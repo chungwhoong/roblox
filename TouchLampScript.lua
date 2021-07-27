@@ -9,5 +9,4 @@ local function turnOnLight()
 	end
 end
 
-
 lamp.Touched:Connect(turnOnLight) 
