@@ -10,12 +10,4 @@ local function turnOnLight()
 end
 
 
-local function partTouched(otherPart)
-	local player=game.Players:GetPlayerFromCharacter(otherPart.Parent) 
-
-	if player then  
-		turnOnLight()(player)  
-	end
-end
-
-lamp.Touched:Connect(partTouched) 
+lamp.Touched:Connect(turnOnLight) 
