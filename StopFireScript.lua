@@ -4,7 +4,7 @@ local point=10
 
 local Players=game:GetService("Players")
 
-local function stopFire(player)
+local function stopFire()
 	
 	for fireSize=12,0,-1 do
 		box.Fire.size=fireSize
