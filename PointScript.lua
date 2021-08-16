@@ -7,12 +7,12 @@ local Players=game:GetService("Players") --현재 게임에 접속중인 플레�
 
 --정답여부에 따라 포인트를 부여하는 함수
 local function givePoint(player)
-	local answer=box.Answer --Box객체의 boolValue인 Answer 지정
+	local value=box.Value --Box객체의 boolValue인 Answer 지정
 
 	local playerStats=player:WaitForChild('leaderstats') --플레이어의 점수판을 playerStats 변수로 지정
 	local playerPoint=playerStats:WaitForChild('Point') --플레이어의 포인트를 playerPoint 변수로 지정
 
-	if answer.Value==true then --선택한 박스의 정답여부가 참이면
+	if value.Value==true then --선택한 박스의 정답여부가 참이면
 		playerPoint.Value=playerPoint.Value+point  --포인트 10점 획득
 	else
 		playerPoint.Value=playerPoint.Value+losePoint --포인트 10점 감소
