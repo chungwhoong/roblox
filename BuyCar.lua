@@ -1,13 +1,13 @@
 local platform=script.parent
-local blackCarWall=game.Workspace.BlackCarWall
+local blackCarWall=game.Workspace.CarWall
 local Players=game:GetService("Players")
 
 local carPrice=30
 
-local wall1=blackCarWall.Wall1
-local wall2=blackCarWall.Wall2
-local wall3=blackCarWall.Wall3
-local wall4=blackCarWall.Wall4
+local wall1=CarWall.Wall1
+local wall2=CarWall.Wall2
+local wall3=CarWall.Wall3
+local wall4=CarWall.Wall4
 
 local wallArray={wall1, wall2, wall3, wall4}
 
@@ -27,14 +27,13 @@ local function buyCar(player)
 		playerPoint.Value=playerPoint.Value-carPrice
 		destroyWall()
 	end
-
 end
 
 local function partTouched(otherPart)
 	local player=game.Players:GetPlayerFromCharacter(otherPart.Parent) --접촉한 부위로부터 해당 플레이어를 찾아내어 player 변수로 지정
 
 	if player then   --만약 플레이어라면
-		buyCar(player)  --givePoint 함수 실행
+		buyCar(player)  -- 함수 실행
 	end
 end
 
