@@ -1,5 +1,5 @@
 local platform=script.parent
-local blackCarWall=game.Workspace.CarWall
+local CarWall=game.Workspace.CarWall
 local Players=game:GetService("Players")
 
 local carPrice=30
