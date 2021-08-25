@@ -1,13 +1,13 @@
 local platform=script.parent
-local CarWall=game.Workspace.CarWall
+local carWall=game.Workspace.CarWall
 local Players=game:GetService("Players")
 
 local carPrice=30
 
-local wall1=CarWall.Wall1
-local wall2=CarWall.Wall2
-local wall3=CarWall.Wall3
-local wall4=CarWall.Wall4
+local wall1=carWall.Wall1
+local wall2=carWall.Wall2
+local wall3=carWall.Wall3
+local wall4=carWall.Wall4
 
 local wallArray={wall1, wall2, wall3, wall4}
 
