@@ -36,3 +36,32 @@
 
 [게임리터러시교육][로블록스] 5-3. 파워아이템 만들기   https://youtu.be/PwSOAZcQym8
 
+[게임리터러시교육][로블록스] 6-1. 변수 만들기   https://youtu.be/c1Xfvsn8Lck
+
+[게임리터러시교육][로블록스] 6-2. 연산자 알아보기   https://youtu.be/Zs9GLoHtP-0
+
+[게임리터러시교육][로블록스] 6-3. 반복문 알아보기   https://youtu.be/KJz6MjapGkM
+
+[게임리터러시교육][로블록스] 7-1. 조건문 알아보기   https://youtu.be/rQTNGnTpEIo
+
+[게임리터러시교육][로블록스] 7-2. 함수 알아보기   https://youtu.be/G_fKhS00Q54
+
+[게임리터러시교육][로블록스] 7-3. 배열 알아보기   https://youtu.be/Iy-aEYPjWLw
+
+[게임리터러시교육][로블록스] 8-1. 불끄기게임 만들기 Part1   https://youtu.be/UdQOarnVeUk
+
+[게임리터러시교육][로블록스] 8-2. 불끄기게임 만들기 Part2   https://youtu.be/HVHdLUfyUto
+
+[게임리터러시교육][로블록스] 8-3. 불끄기게임 만들기 Part3   https://youtu.be/HUv5BK8O-Nc
+
+[게임리터러시교육][로블록스] 8-4. 불끄기게임 만들기 Part4   https://youtu.be/Xp6znaMvhG4
+
+[게임리터러시교육][로블록스] 9-1. 퀴즈월드 만들기(문제 제작)   https://youtu.be/uz0M8jWfciA
+
+[게임리터러시교육][로블록스] 9-2. 퀴즈월드 만들기(자동차판매점 제작)   https://youtu.be/N1V41SlsnAM
+
+[게임리터러시교육][로블록스] 9-2. 퀴즈월드 만들기(자동차 구입)   https://youtu.be/jhIgV8W0dvs
+
+
+
+
