@@ -36,7 +36,6 @@ while true do
 		local player = playerList[i]
 		if player:GetAttribute("IsAlive") then
 			local points = player.leaderstats.Points
-			points.Value = points.Value + 1
 		end
 	end
 end
