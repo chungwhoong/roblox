@@ -11,13 +11,13 @@ local function onTouch(otherPart)
 		local humanoid = character:FindFirstChildWhichIsA ("Humanoid")
 
 		if humanoid then
-			print("Player gets super power")			
+			soundEffect.Volume=20			
 			humanoid.WalkSpeed = 50
 			humanoid.JumpHeight= 50
 
 			powerItem.CanCollide=false
 			powerItem.Transparency=1
-			soundEffect.Volume=20
+			
 
 			wait(5)
 			humanoid.WalkSpeed = 16 
