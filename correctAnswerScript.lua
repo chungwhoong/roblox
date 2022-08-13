@@ -1,4 +1,4 @@
-local fadingPlatform=script.Parent --이 스크립트의 부모인 fadingPlatform 지정
+local correctPlatform=script.Parent --이 스크립트의 부모인 fadingPlatform 지정
 local Players=game:GetService("Players") --현재 게임에 접속중인 플레이어들을 찾아 변수로 지정
 local isTouched=false --플랫폼이 터치되었는지를 확인하는 변수 설정
 local gotPoint=false
@@ -35,4 +35,4 @@ local function partTouched(otherPart)
 	end
 end
 
-fadingPlatform.Touched:Connect(partTouched) --플랫폼 위에 올라가면 위의 fade함수를 실행한다.
+correctPlatform.Touched:Connect(partTouched) --플랫폼 위에 올라가면 위의 fade함수를 실행한다.
