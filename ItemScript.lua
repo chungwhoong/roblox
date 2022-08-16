@@ -1,5 +1,5 @@
 local powerItem = script.Parent
-local soundEffect=powerItem.SoundEffect
+local soundEffect=powerItem.Sound
 soundEffect.Volume=0
 
 local isTouched= false
